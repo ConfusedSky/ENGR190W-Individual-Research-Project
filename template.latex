@@ -11,6 +11,7 @@ $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
 $endif$
+\usepackage[final]{pdfpages}
 \usepackage[document]{ragged2e}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
@@ -274,4 +275,27 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+\pagebreak
+\section{ABOUT THE AUTHOR}
+
+\includegraphics[height=2in]{masa}
+
+Masa Maeda grew up in San Lorenzo, California. 
+He has 4 brothers and a sister.
+He has always had an interest in computers since he was a little kid
+
+He chose to write about Blockchain because it is the newest most exciting frontier in computing. 
+
+Upon doing the research necessary for this paper, he realized that there is still much more work that needs to go into Blockchain technology. 
+But that it is almost there.
+
+He plans to study further into the topic and plans to develop for Ethereum. 
+He finds the concept of a fully distributed supercomputer to be fascinating.
+
+\section{ADDENDUM}
+ 
+\includepdf[pages=-,pagecommand={},width=\textwidth]{IRPPresentation.pdf}
+
+\includegraphics{Readability}
 \end{document}
+
