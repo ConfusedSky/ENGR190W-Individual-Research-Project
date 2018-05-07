@@ -123,17 +123,37 @@ To this day no one really knows who he is.
 The CIA claims to know who he is but that information is not disclosed publicly so we have no idea if that is true or not.  
 
 Satoshi handed off development of Bitcoin in 2010, not much has been heard from him since.
-His legacy, however, is far reaching and 
+His legacy, however, is far reaching and strong. 
+Many others have built upon his ideas to make useful projects, where his original project was really more of a proof of concept. 
 
 # BLOCKCHAIN IMPLEMENTATIONS
 
 ## Bitcoin
+
+When people think of Blockchain the first thing that comes to mind is generally Bitcoin.
+Unlike most other Blockchain technologies it's only purpose is to hold value.
+Bitcoin uses a system where new coins are added to the syste as a reward to miners who verify blocks. 
+Over time less and less new coins enter the system and the miners then get paid in transaction fees from the senders of transactions.
+The supply limit of Bitcoin is 21,000,000 there are currently 16,858,782 Bitcoin circulating.
+Bitcoin will reach the supply limit in 2140 assuming it is still active till then.
+
+Bitcoin was the original Blockchain implementation, it was really rough around the edges and did not have a lot of real world experience to draw from when it was designed.
+At low loads Bitcoin is estimated to have a maximum of around 3.3 to 7 transactions a second.
+There is a minimum wait time of 10 minutes between transaction blocks as well. 
+
+In real life condiitons this is even worse.
+There is currently an average wait time of around 78 minutes per transaction and as high as 1188 minutes. 
+Transaction fees are around $25 on average. 
+Bitcoin was created to replace other forms of currency but that just isn't realistic with Bitcoin's implementation.
+Bitcoin is far too low volume and inefficient to replace our current currencies.
+Bitcoin is really just glorified gambling.
+
 ## InterPlanetary File System
 ## Etherium
 [//]: # (Talk about bitnation.)
 [//]: # (Land registration.)
 
-# ADVANTAGES
+# DECENTRALIZED SOFTWARE 
 
 # DISADVANTAGES
 
